@@ -17,6 +17,9 @@ function Scorers(props) {
 
     return (
         <div>
+            <h2 className="title">2018 Top Scorers List</h2>
+      <div className="form">
+            <p className="select-text">Select a League: </p>
           <select onChange={handleChange} value={currentLeague}>
   <option name="PL" value="PL">English Premiere League</option>
   <option name="BL1" value="BL1">German BundesLiga</option>
@@ -24,12 +27,12 @@ function Scorers(props) {
   <option value="SA">Italian Serie A</option>
   <option value="PD">Spanish Primera Division</option>
 </select>
-            <p>2018 Top Scorers List</p>
+      </div>
            {props.isFetching && <ClipLoader
-          // css={override}
+          className="loader"
           sizeUnit={"px"}
           size={150}
-          color={'blue'}
+          color={'white'}
           loading={props.isFetching}
         /> }
         <div className="list">

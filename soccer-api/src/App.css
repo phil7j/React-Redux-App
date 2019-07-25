@@ -2,6 +2,22 @@
   text-align: center;
 }
 
+.title {
+  color: white;
+}
+
+.select-text {
+  color: white;
+}
+
+.form {
+  margin-top: 30px;
+}
+
+.loader {
+  margin-top: 300px;
+}
+
 .list {
   width: 80%;
   display: flex;
@@ -16,4 +32,5 @@
   margin: 15px;
   padding: 10px;
   border-radius: 5px;
+  background: white;
 }
