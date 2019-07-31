@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+}
+
+.title {
+  color: white;
+}
+
+.select-text {
+  color: white;
+}
+
+.form {
+  margin-top: 30px;
+}
+
+.loader {
+  margin-top: 300px;
+}
+
+.list {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
+
+.card {
+  border: solid black 2px;
+  width: 170px;
+  margin: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  background: white;
+}
